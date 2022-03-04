@@ -1,6 +1,7 @@
 # CV Template
 
-The goal was to build a cv template which looks excactly as below, but when the name of CV owner is clicked the color should be Changed randomly
+The goal was to build a cv template which looks excactly as below, but when the name of CV owner is clicked the color should be Changed randomly.
+this is part of ATLP challenge
 ![Secreenshot](./screenshot.png)
 
 ## Tools used
@@ -11,14 +12,15 @@ Vanilla JS for changing the colors only, CSS, and a bunch of HTML, ViteJS
 
 1. Clone the repo
 2. open the project
-3. Use node and run
+3. Use npm and run command
 
-```npm install
+```
+npm install
 ```
 
-4.
+4. then run `npm run dev` or `npm run preview `
 
 ## Todo
 
-[] achieve 98%+ match with the design
-[] Convert HTML to reusable components using html, if I am allowed
+- [ ] achieve 98%+ match with the design
+- [ ] Convert HTML to reusable components using html, if I am allowed

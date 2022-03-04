@@ -20,9 +20,15 @@ li {
   cursor: pointer;
   margin: 10px 0;
 }
+.cv--section {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
 #cv {
   max-width: 980px;
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: sans-serif, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--primary-color);
@@ -33,12 +39,7 @@ li {
   overflow: hidden;
   border: 1px solid var(--gray);
 }
-.cv--section {
-  margin: 0px;
-  padding: 0px;
-  display: flex;
-  flex-direction: column;
-}
+
 .section-wrapper {
   padding: 10px;
   width: 100%;
@@ -56,12 +57,30 @@ li {
 .row.space-between {
   justify-content: space-between;
 }
+#social-media {
+  margin: 10px 0;
+}
+
+.social-media-item {
+  margin: 4px 20px 4px 0;
+  min-width: 40%;
+  width: 40%;
+  text-decoration: none;
+  color: var(--dark-gray);
+}
+.social-media-item i {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  color: var(--white);
+  padding: 4px;
+  margin-right: 5px;
+}
 .left-content {
-  width: 30%;
+  width: 25%;
   background-color: var(--primary-color);
 }
 .right-content {
-  width: 70%;
+  width: 75%;
   max-width: 70%;
 }
 .icon {
@@ -73,8 +92,8 @@ li {
   max-width: 50px;
 }
 
-.y-padding-20 {
-  padding: 20px 0px;
+.y-padding-40 {
+  padding: 40px 0px;
 }
 .icon i {
   background-color: var(--primary-color);
@@ -85,13 +104,20 @@ li {
   justify-content: center;
   min-width: 10px;
   min-height: 10px;
-  padding: 5px;
+  padding: 4px;
+  color: var(--white);
+}
+.icon i.fa-solid {
+  padding: 8px;
+  height: 35px;
+  width: 35px;
+  font-size: 20px;
 }
 .icon::after {
   content: "";
   flex: 1;
   width: 1px;
-  background-color: var(--primary-color);
+  background-color: var(--gray);
 }
 .timeline {
   color: var(--white);
@@ -125,14 +151,16 @@ h3 {
   color: var(--primary-color);
 }
 h1 {
-  padding-bottom: 12px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 900;
 }
 h2 {
-  padding-bottom: 10px;
-}
-h3 {
   padding-bottom: 8px;
 }
-#skills p {
+h3 {
   padding-bottom: 6px;
+}
+#skills p {
+  padding-bottom: 4px;
 }
