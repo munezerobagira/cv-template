@@ -2,7 +2,7 @@ const randomilize = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 };
 const randomizeColor = (lightness = 0.3) => {
-  return `hsl(${randomilize(0, 300)},${randomilize(140, 255)}%,${randomilize(
+  return `hsl(${randomilize(0, 360)},${randomilize(0, 100)}%,${randomilize(
     0,
     100 * lightness
   )}%)`;
